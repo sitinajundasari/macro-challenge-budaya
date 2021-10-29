@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bgsc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bajuadat">
+
+    <ImageView
+        android:id="@+id/bjtadt"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/bjtadt" />
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/backbutton"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"/>
+
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/sharebutton" />
+
+    <ImageView
+        android:id="@+id/bjadt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bjtadt"
+        android:src="@drawable/bjadtbtk" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/bjadt"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/bjadttext"
+        android:id="@+id/bjtxt"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="685dp"
+        android:src="@drawable/rectanglee" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="685dp"
+        android:src="@drawable/search" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="685dp"
+        android:src="@drawable/home" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="685dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/questionmark"/>
+
+
+
+
+</RelativeLayout>
