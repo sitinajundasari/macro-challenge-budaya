@@ -7,7 +7,6 @@
     android:background="@drawable/bgsc"
     tools:context=".MainActivity">
 
-
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="445dp"
@@ -30,23 +29,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.171"
-        app:srcCompat="@drawable/sulawesi_selatan_1" />
+        app:srcCompat="@drawable/sumatra_barat" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="138dp"
         android:layout_height="36dp"
-        android:layout_marginTop="224dp"
         android:fontFamily="@font/roboto"
-        android:text="Sulawesi Selatan"
+        android:text="Sumatra Barat"
         android:textAlignment="center"
         android:textColor="#ffffff"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.316" />
+        app:layout_constraintVertical_bias="0.306" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -65,7 +63,7 @@
         android:layout_width="358dp"
         android:layout_height="103dp"
         android:fontFamily="@font/ruluko"
-        android:text="Sulawesi Selatan (disingkat Sulsel) adalah sebuah provinsi di Indonesia yang terletak di bagian selatan Sulawesi. Ibu kotanya adalah Makassar. Provinsi ini berbatasan dengan Sulawesi Tengah dan Sulawesi Barat di utara, Teluk Bone dan Sulawesi Tenggara di timur, Selat Makassar di barat dan Laut Flores di selatan."
+        android:text="Sumatera Barat (disingkat Sumbar) adalah sebuah provinsi di Indonesia yang terletak di Pulau Sumatra beribu kota Padang. Provinsi Sumatra Barat terletak sepanjang pesisir barat Sumatra bagian tengah, dataran tinggi Bukit Barisan di sebelah timur, dan sejumlah pulau di lepas pantainya seperti Kepulauan Mentawai. "
         android:textAlignment="center"
         android:textColor="#4B0C8A"
         app:layout_constraintBottom_toBottomOf="parent"
