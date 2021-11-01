@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imgview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgsc"
+    tools:context=".MainAlatMusikGondang">
+
+    <ImageView
+        android:id="@+id/altmsk"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/altmsk" />
+
+    <ImageButton
+        android:id="@+id/btn1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/backbutton"
+        android:background="@android:color/transparent"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/sharebutton"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/gondan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/altmsk"
+        android:layout_marginTop="-15dp"
+        android:src="@drawable/gondan" />
+
+    <ImageView
+        android:id="@+id/altms"
+        android:layout_width="match_parent"
+        android:layout_height="266dp"
+        android:layout_below="@id/gondan"
+        android:layout_marginTop="74dp"
+        android:src="@drawable/altmsktext" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="620dp"
+        android:src="@drawable/rectanglee" />
+
+    <ImageButton
+        android:id="@+id/btn5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="640dp"
+        android:src="@drawable/search"
+        android:background="@android:color/transparent"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btn6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="640dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/home"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btn7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="640dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/questionmark"
+        android:background="@android:color/transparent"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/playy"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/gondan"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/play"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</RelativeLayout>
