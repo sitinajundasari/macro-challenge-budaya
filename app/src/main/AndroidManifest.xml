@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.budayaid" >
+    package="com.example.budayaid">
 
     <application
         android:allowBackup="true"
@@ -8,19 +8,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Budayaid" >
+        android:theme="@style/Theme.Budayaid">
+
         <activity
-            android:name=".MainAlatMusikBonang"/>
-        android:exported="true" />
+            android:name=".MainAlatMusikBonang"
+            android:exported="true"/>
         <activity
-            android:name=".MainBajuAdatKesatriaAgeng"/>
-        android:exported="true" />
+            android:name=".MainBajuAdatKesatriaAgeng"
+            android:exported="true"/>
         <activity
-            android:name=".MainRumahAdatBangsalKencono"/>
-        android:exported="true" />
+            android:name=".MainRumahAdatBangsalKencono"
+            android:exported="true"/>
         <activity
-            android:name=".MainAlatMusikKetipung"/>
-            android:exported="true" />
+            android:name=".MainAlatMusikKetipung"
+            android:exported="true"/>
         <activity
             android:name=".MainBajuAdatPesaan"
             android:exported="true" />
@@ -53,7 +54,7 @@
             android:exported="true" />
         <activity
             android:name=".MainBajuAdatBundoKanduang"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".MainAlatMusikGondang"
             android:exported="true" />
@@ -66,11 +67,12 @@
         <activity
             android:name=".MainProvinsiDiYogyakarta"
             android:exported="true" />
-        <activity android:name=".JawaTengah"
+        <activity
+            android:name=".JawaTengah"
             android:exported="true" />
         <activity
             android:name=".JawaTimur"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".MainProvinsiSulawesiSelatan"
             android:exported="true" />
@@ -102,17 +104,17 @@
             android:name=".MainLogin"
             android:exported="true" />
         <activity
-            android:name=".MainSplashScreen3"
+            android:name=".MainOnBoardinggg"
             android:exported="true" />
         <activity
-            android:name=".MainSpalashScreen2"
+            android:name=".MainOnBoardingg"
             android:exported="true" />
         <activity
-            android:name=".MainSplashScreen"
+            android:name=".OnBoarding"
             android:exported="true" />
         <activity
-            android:name=".MainOnboarding"
-            android:exported="true" >
+            android:name=".SplashScreen"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

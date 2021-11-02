@@ -8,20 +8,20 @@ import android.view.View;
 import android.widget.ImageButton;
 
 
-public class MainSplashScreen extends AppCompatActivity {
+public class OnBoarding extends AppCompatActivity {
     private ImageButton lanjutimagebutton;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_splash_screen);
+        setContentView(R.layout.activity_on_boarding);
 
         lanjutimagebutton = findViewById(R.id.lanjutimagebutton);
         lanjutimagebutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), MainSpalashScreen2.class));
+                startActivity(new Intent(getApplicationContext(), MainOnBoardingg.class));
             }
         });
     }

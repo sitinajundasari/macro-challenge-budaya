@@ -31,32 +31,19 @@
         app:layout_constraintVertical_bias="0.036"
         app:srcCompat="@drawable/vcktor" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="50dp"
-        android:layout_height="43dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.955"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.036"
-        app:srcCompat="@drawable/share" />
-
     <TextView
         android:id="@+id/textView5"
         android:layout_width="117dp"
         android:layout_height="28dp"
+        android:layout_marginStart="144dp"
         android:fontFamily="@font/robotocomol"
         android:text="Rumah Adat"
         android:textAlignment="center"
         android:textColor="#4B0C8A"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageView4"
-        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="@+id/imageView14"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.046" />
+        app:layout_constraintVertical_bias="0.048" />
 
     <ImageView
         android:id="@+id/imageView15"

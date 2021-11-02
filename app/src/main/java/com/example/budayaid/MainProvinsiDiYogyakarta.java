@@ -1,11 +1,18 @@
 package com.example.budayaid;
 
 import android.content.Intent;
+import android.content.pm.ApplicationInfo;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+import java.io.File;
 
 public class MainProvinsiDiYogyakarta extends AppCompatActivity {
     private ImageView btn1, btn2, btn3, btn4, btn5, btn6, btn7;
@@ -22,6 +29,7 @@ public class MainProvinsiDiYogyakarta extends AppCompatActivity {
         btn5 = findViewById(R.id.btn5);
         btn6 = findViewById(R.id.btn6);
         btn7 = findViewById(R.id.btn7);
+
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,3 +75,4 @@ public class MainProvinsiDiYogyakarta extends AppCompatActivity {
         });
     }
 }
+

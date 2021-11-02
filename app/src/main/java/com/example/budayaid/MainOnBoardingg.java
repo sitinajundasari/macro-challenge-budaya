@@ -7,19 +7,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class MainSplashScreen3 extends AppCompatActivity {
-    private ImageButton nbtn3;
+public class MainOnBoardingg extends AppCompatActivity {
+    private ImageButton nbtn2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_splash_screen3);
+        setContentView(R.layout.activity_on_boardingg);
 
-        nbtn3 = findViewById(R.id.nbtn3);
-        nbtn3.setOnClickListener(new View.OnClickListener() {
+
+        nbtn2 = findViewById(R.id.nbtn2);
+        nbtn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), MainLogin.class));
+                startActivity(new Intent(getApplicationContext(), MainOnBoardinggg.class));
             }
         });
     }

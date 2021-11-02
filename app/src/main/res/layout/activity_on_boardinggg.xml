@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backgroundonboarding"
-    tools:context=".MainSplashScreen3">
+    tools:context=".MainOnBoardinggg">
 
     <ImageView
         android:id="@+id/imageView5"

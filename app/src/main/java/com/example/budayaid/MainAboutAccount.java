@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class MainAboutAccount extends AppCompatActivity {
-    private ImageButton img1;
+    private ImageButton img1, btn8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +16,7 @@ public class MainAboutAccount extends AppCompatActivity {
         setContentView(R.layout.activity_main_about_account);
 
         img1 = findViewById(R.id.img1);
+        btn8 = findViewById(R.id.btn8);
 
 
 
